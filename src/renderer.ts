@@ -1,5 +1,5 @@
 {
-    const ipc = require('electron').ipcRenderer;
+    const ipc = window.electron.ipcRenderer;
 
     ipc.on('async-reply', (event: any, arg: any) => {
         console.log(arg);
