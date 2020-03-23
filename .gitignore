@@ -92,3 +92,5 @@ out/
 *.js
 
 test/
+
+*.css
