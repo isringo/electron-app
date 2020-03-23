@@ -9,6 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
+    "tsc": "tsc",
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
@@ -45,7 +46,8 @@
     }
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.50",
