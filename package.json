@@ -10,6 +10,7 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "tsc": "tsc",
+    "sassc": "node-sass --include-path scss",
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
